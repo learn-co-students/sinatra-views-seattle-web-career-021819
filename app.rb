@@ -10,5 +10,7 @@ class App < Sinatra::Base
 
 	get "/info" do
 		erb :info
+		# also possible:
+		# erb :dogs
 	end
 end
